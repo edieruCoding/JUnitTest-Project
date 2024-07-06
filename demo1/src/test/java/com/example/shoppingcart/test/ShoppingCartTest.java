@@ -37,11 +37,11 @@ public class ShoppingCartTest {
         cart = null;
         System.out.println("Executed after each test method in this class.");
     }
-//red
+
     @Test
     public void testAddProduct() {
         cart.addProduct(product1);
-        assertEquals(4, cart.getProductCount());
+        assertEquals(3, cart.getProductCount());
         assertEquals(999.99, cart.getTotalPrice(), 0.01);
         System.out.println("Executed testAddProduct method.");
     }
