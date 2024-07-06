@@ -37,7 +37,7 @@ public class ShoppingCartTest {
         cart = null;
         System.out.println("Executed after each test method in this class.");
     }
-//RED
+//REDD
     @Test
     public void testAddProduct() {
         cart.addProduct(product1);
