@@ -49,7 +49,7 @@ public class ShoppingCartTest {
     @Test
     public void testAddProduct2() {
         cart.addProduct(product1);
-        assertEquals(3, cart.getProductCount());
+        assertEquals(1, cart.getProductCount());
         assertEquals(999.99, cart.getTotalPrice(), 0.01);
         System.out.println("Executed testAddProduct method.");
     }
